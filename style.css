@@ -1,0 +1,27 @@
+:root { --bg:#111; --fg:#eee; --accent:#59c; --muted:#999; --card:#1a1a1a; --success:#2e8b57; --warning:#d19a30; --danger:#c35; }
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg)}
+header{padding:12px 16px;border-bottom:1px solid #222}
+h1{margin:0 0 8px;font-size:20px}
+.topbar{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start}
+.controls{display:flex;gap:8px;flex-wrap:wrap}
+button,input[type=file],input[type=number],input[type=date],input[type=text]{background:var(--card);border:1px solid #333;color:var(--fg);padding:8px 10px;border-radius:6px;cursor:pointer}
+button:hover{border-color:var(--accent)}
+main{display:grid;grid-template-columns:1fr 360px;gap:12px;padding:12px}
+#calendar{background:var(--card);border:1px solid #222;border-radius:8px;padding:8px}
+#sidebar{background:var(--card);border:1px solid #222;border-radius:8px;padding:12px}
+#weeklySummary div{padding:6px 0;border-bottom:1px dashed #333}
+.fc .fc-toolbar-title{color:var(--fg)}
+.fc .fc-button{background:#222;border:1px solid #333;color:var(--fg)}
+.fc .fc-daygrid-event-dot{border-color:var(--accent)}
+.event-completed{background:rgba(46,139,87,.15)!important;border-left:3px solid var(--success)!important}
+.event-rest{background:rgba(153,153,153,.1)!important;border-left:3px solid var(--muted)!important}
+.event-quality{border-left:3px solid var(--accent)!important}
+.event-vo2{border-left:3px solid var(--danger)!important}
+.event-threshold{border-left:3px solid #e68!important}
+.event-z2{border-left:3px solid #6c8!important}
+.event-recovery{border-left:3px solid #aaa!important}
+.ftp-card{background:var(--card);border:1px solid #222;border-radius:8px;padding:8px 12px;min-width:280px}
+.ftp-card .inputs{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.muted{color:var(--muted);font-size:12px}
+.proj-controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
