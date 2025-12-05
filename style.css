@@ -25,3 +25,4 @@ main{display:grid;grid-template-columns:1fr 360px;gap:12px;padding:12px}
 .ftp-card .inputs{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
 .muted{color:var(--muted);font-size:12px}
 .proj-controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+
